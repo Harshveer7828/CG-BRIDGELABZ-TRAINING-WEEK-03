@@ -9,7 +9,7 @@ public class Main {
         Instagram.addUser("OM2024", "OM TIWARI", 22);
         Instagram.addUser("d2024", "depesh", 22);
         Instagram.addUser("durgesh", "durgesh", 22);
-        Instagram.addUser("vipin", "vipin", 22);
+        Instagram.addUser("Bipin", "Bipin", 22);
 
         // Add a connection
         Instagram.addConnection("HARSH2024", "OM2024");

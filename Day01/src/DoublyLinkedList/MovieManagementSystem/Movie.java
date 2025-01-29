@@ -1,20 +1,19 @@
 package DoublyLinkedList.MovieManagementSystem;
 
-public class Movie {
-    String movieTitle;
+class Movie {
+    String title;
     String director;
     int yearOfRelease;
     double rating;
     Movie next;
     Movie prev;
-    Movie(String movieTitle, String director, int yearOfRelease, double rating){
-        this.movieTitle = movieTitle;
+
+    public Movie(String title, String director, int yearOfRelease, double rating) {
+        this.title = title;
         this.director = director;
-        this.rating = rating;
         this.yearOfRelease = yearOfRelease;
+        this.rating = rating;
         this.next = null;
         this.prev = null;
     }
-
-
 }

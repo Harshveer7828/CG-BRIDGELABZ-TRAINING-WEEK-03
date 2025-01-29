@@ -1,6 +1,5 @@
 package SinglyLinkedList.StudentRecordManagement;
 
-
 //method to display students record
 public class DisplayLinkedList{
     public void displayLinkedList(Node head){
