@@ -1,20 +1,20 @@
 package SinglyLinkedList.StudentRecordManagement;
 
-import java.util.ArrayList;
+//create a node class
+public class Node{
 
-// Node class represents the user
-public class Node {
-    // Attributes or the data which contains node data
+    //create attributes
     int rollNumber;
-    int age;
     String name;
-    String grade;
+    int age;
+    char grade;
     Node next;
 
-    Node(int rollNumber,int age, String name, String grade){
+    //create constructor
+    public Node(int rollNumber, String name, int age, char grade ){
         this.rollNumber = rollNumber;
-        this.age = age;
         this.name = name;
+        this.age = age;
         this.grade = grade;
         this.next = null;
     }
