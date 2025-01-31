@@ -19,7 +19,7 @@ class CircularTourDeque {
             // If surplus becomes negative, remove pumps from the front
             while (surplus < 0 && !deque.isEmpty()) {
                 int removedPump = deque.pollFirst(); // Remove the first pump
-                surplus -= (petrol[removedPump] - distance[removedPump]); // Adjust surplus
+                surplus = 0;// Adjust surplus
                 start = removedPump + 1; // Move start forward
             }
         }

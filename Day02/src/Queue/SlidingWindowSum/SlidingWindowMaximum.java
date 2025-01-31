@@ -15,7 +15,7 @@ public class SlidingWindowMaximum {
 
         for (int i = 0; i < n; i++) {
             // Remove elements out of the window (from front)
-            if (!deque.isEmpty() && deque.peek() < i - k + 1) {
+            if (!deque.isEmpty() && deque.peek() <= i - k) {
                 deque.poll();
             }
 
