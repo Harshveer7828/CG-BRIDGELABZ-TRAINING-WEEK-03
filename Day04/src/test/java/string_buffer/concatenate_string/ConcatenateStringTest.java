@@ -1,5 +1,5 @@
-package StringBuffer;
-import StringBuffer.ConcatenateStrings.ConcatenateString;
+package string_buffer.concatenate_string;
+import string_buffer.concatenate_string.ConcatenateString;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

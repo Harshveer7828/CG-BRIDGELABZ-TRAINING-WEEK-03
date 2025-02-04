@@ -1,4 +1,4 @@
-package StringBuilder.RemoveDuplicatesFromString;
+package string_builder.remove_duplicates_from_string;
 
 import java.io.BufferedReader;
 import java.io.IOException;

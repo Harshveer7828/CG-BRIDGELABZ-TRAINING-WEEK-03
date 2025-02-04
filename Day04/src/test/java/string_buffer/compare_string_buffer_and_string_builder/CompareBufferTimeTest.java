@@ -1,6 +1,6 @@
-package StringBuffer;
+package string_buffer.compare_string_buffer_and_string_builder;
 
-import StringBuffer.CompareStringBufferAndStringBuilder.Compare;
+import string_buffer.compare_string_and_string_builder.Compare;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,4 +1,4 @@
-package StringBuffer.CompareStringBufferAndStringBuilder;
+package string_buffer.compare_string_and_string_builder;
 
 public class Compare {
     public static double[] comparePerformance(int iterations) {

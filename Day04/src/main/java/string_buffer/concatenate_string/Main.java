@@ -1,4 +1,4 @@
-package StringBuffer.ConcatenateStrings;
+package string_buffer.concatenate_string;
 
 import java.io.BufferedReader;
 import java.io.IOException;

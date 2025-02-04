@@ -1,4 +1,4 @@
-package StringBuilder.ReverseString;
+package string_builder.reverse_string;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

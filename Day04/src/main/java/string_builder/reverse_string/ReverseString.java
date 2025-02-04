@@ -1,4 +1,4 @@
-package StringBuilder.ReverseString;
+package string_builder.reverse_string;
 
 public class ReverseString {
     public static String reverse(String input){

@@ -1,4 +1,4 @@
-package StringBuilder.ReverseString;
+package string_builder.reverse_string;
 
 import java.io.BufferedReader;
 import java.io.IOException;

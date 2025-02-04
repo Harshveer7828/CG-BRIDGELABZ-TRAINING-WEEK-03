@@ -1,4 +1,4 @@
-package StringBuilder.RemoveDuplicatesFromString;
+package string_builder.remove_duplicates_from_string;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 public class RemoveDuplicateTest {
