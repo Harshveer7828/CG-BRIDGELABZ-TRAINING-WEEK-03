@@ -21,10 +21,10 @@ public class CountOccurrence {
                     }
                 }
             }catch (IOException e){
-                System.out.println("Error occurred IO Exception" + e.getMessage());
+                System.out.println("Error occurred IO Exception " + e.getMessage());
             }
         }catch (FileNotFoundException e){
-            System.out.println("Exception occurred File Not Found" + e.getMessage());
+            System.out.println("Exception occurred File Not Found " + e.getMessage());
         }
 
         return count;
