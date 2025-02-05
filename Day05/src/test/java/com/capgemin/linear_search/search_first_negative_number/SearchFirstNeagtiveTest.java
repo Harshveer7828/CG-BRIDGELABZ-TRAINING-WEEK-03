@@ -1,4 +1,4 @@
-package linear_search.search_first_negative_number;
+package com.capgemin.linear_search.search_first_negative_number;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 public class SearchFirstNeagtiveTest {

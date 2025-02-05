@@ -1,4 +1,4 @@
-package linear_search.word_search;
+package com.capgemin.linear_search.word_search;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
