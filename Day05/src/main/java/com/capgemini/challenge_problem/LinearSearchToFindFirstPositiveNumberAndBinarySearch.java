@@ -1,7 +1,6 @@
 package com.capgemini.challenge_problem;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class LinearSearchToFindFirstPositiveNumberAndBinarySearch {
     public static int searchFirstMissingPositive(ArrayList<Integer> list){
