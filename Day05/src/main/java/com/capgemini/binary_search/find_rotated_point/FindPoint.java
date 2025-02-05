@@ -6,7 +6,6 @@ public class FindPoint {
     public static int findSmallestElementIndex(int[] arr) {
         // Variable which stores the pointer
         int left = 0, right = arr.length - 1, mid;
-
         // Loop until left pointer is less and equal to right
         while (left <= right) {
             // Update the middle element
