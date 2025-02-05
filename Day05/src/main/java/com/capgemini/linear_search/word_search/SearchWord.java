@@ -1,4 +1,4 @@
-package linear_search.word_search;
+package com.capgemini.linear_search.word_search;
 
 public class SearchWord {
     public static String search(String[] arr, String word){

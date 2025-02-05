@@ -1,6 +1,5 @@
-package linear_search.search_first_negative_number;
+package com.capgemini.linear_search.search_first_negative_number;
 
-import javax.print.attribute.standard.NumberOfDocuments;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

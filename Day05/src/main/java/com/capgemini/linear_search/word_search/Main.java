@@ -1,4 +1,4 @@
-package linear_search.word_search;
+package com.capgemini.linear_search.word_search;
 
 import java.io.BufferedReader;
 import java.io.IOException;

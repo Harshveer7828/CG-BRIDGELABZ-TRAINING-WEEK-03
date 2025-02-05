@@ -1,4 +1,4 @@
-package linear_search.search_first_negative_number;
+package com.capgemini.linear_search.search_first_negative_number;
 
 public class SearchFirstNegative {
     public static int searchFirstNegative(int[] arr){
