@@ -4,40 +4,40 @@ import java.util.Arrays;
 
 public class SearchInDataSet {
     // Method which give the ms of the linear search to search the element
-    private double calculateLinearSearchTime(int[] arr, int target){
+    public long calculateLinearSearchTime(int[] arr, int target) {
         // Search the target element
-        double nanoTimeBefore = System.nanoTime();
+        long nanoTimeBefore = System.nanoTime();
         for (int j : arr) {
-            if (j == target){
+            if (j == target) {
                 break;
             }
         }
-        return (System.nanoTime() - nanoTimeBefore) / 1e6;
+        return (System.nanoTime() - nanoTimeBefore);
     }
 
     // Method to calculate the ms time of binary Search
-    private double calculateBinarySearchTime(int[] arr,int target){
+    public long calculateBinarySearchTime(int[] arr, int target) {
         int left = 0;
         int right = arr.length - 1;
         int mid;
         Arrays.sort(arr);
-        double nanoTimeBefore = System.nanoTime();
-        while(left <= right){
+        long nanoTimeBefore = System.nanoTime();
+        while (left <= right) {
             // update the mid element
             mid = left + (right - left) / 2;
             // Check the element is equal to mid or not
             if (arr[mid] == target) break;
-            else if(arr[mid] > target) right = mid - 1;
+            else if (arr[mid] > target) right = mid - 1;
             else left = mid + 1;
         }
-        return (System.nanoTime() - nanoTimeBefore) / 1e6;
+        return (System.nanoTime() - nanoTimeBefore);
     }
 
     // Method to display the time in both linear and binary search
-    public void displayTime(int[] arr, int target){
-        double binarySearchTime = calculateBinarySearchTime(arr,target);
-        double linearSearchTime = calculateLinearSearchTime(arr,target);
-        System.out.println("Time taken in Binary Search is: " + binarySearchTime + "\nTime taken in Linear Search: "+ linearSearchTime);
+    public void displayTime(int[] arr, int target) {
+        double binarySearchTime = calculateBinarySearchTime(arr, target);
+        double linearSearchTime = calculateLinearSearchTime(arr, target);
+        System.out.println("Time taken in Binary Search is: " + binarySearchTime + "\nTime taken in Linear Search: " + linearSearchTime);
     }
 }
 
